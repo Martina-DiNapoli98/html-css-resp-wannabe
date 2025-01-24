@@ -129,6 +129,17 @@ img {
  ************************************************/
 
  @media screen and (max-width: 480px){
+
+    /* HEADER */
+    .site-header{
+        min-width: 480px;
+    }
+
+      .container {
+        max-width: 100%;
+    }
+    
+    /* LESSONS SECTION */
     .row{
         width: 100%;
        flex-direction: column;
@@ -137,18 +148,13 @@ img {
      }
 
 
-    .container {
-        max-width: 100%;
-    }
-    .site-header{
-        min-width: 480px;
-    }
-
     .steps .col{
         margin-left: 0;
       
     }
     
+
+    /* WHY US SECTION */
     .why-us{
         padding: 0 40px;
     }
@@ -167,6 +173,7 @@ img {
     .container {
         width: 100%;
     }
+
 
      .lessons .col{
         width: 100%
